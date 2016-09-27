@@ -36,7 +36,93 @@
 <div class="preloader">
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/preloader.gif" alt="">
 </div>
-<div id="page" class="hfeed site">
+
+<div class="wrapper">
+
+	<header class="mainheader">
+		
+		<section class="mainheader__top">
+			<div class="center">
+				<a href="tel:+491702678471" class="phone">
+					+49 170 2678 471
+				</a>
+				<span></span>
+				<a href="mailto:<?php echo get_bloginfo('admin_email'); ?>" class="mail">
+					<?php echo get_bloginfo('admin_email'); ?>
+				</a>
+			</div>
+		</section>
+
+		<section class="mainheader__middle">
+			<div class="center">
+				<div class="logo">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.jpg" alt="<?php echo esc_attr(get_bloginfo('name')); ?>">
+					</a>
+				</div>
+				<div class="nav">
+					<ul>
+						<li>
+							<a href="#">Главная</a>
+						</li>
+						<li>
+							<a href="#">Услуги и ТАрифы</a>
+						</li>
+						<li>
+							<a href="#">Новые технологии</a>
+						</li>
+						<li>
+							<a href="#">Клиентам</a>
+						</li>
+						<li>
+							<a href="#">Информация</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+ 
+		<section class="mainheader__bottom">
+			<div class="slideshow">
+				<div class="slide" style="background-image:url(assets/images/header_slide_1.jpg)">
+					<div class="table">
+						<div class="table-cell">
+							<blockquote>
+								<div class="title">
+									ДомКомфорт 1
+								</div>
+								<div class="descr">
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<br/><br/>
+									Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velied ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+								</div>
+							</blockquote>
+						</div>
+					</div>					
+				</div>
+				<div class="slide" style="background-image:url(assets/images/header_slide_2.jpg)">
+					<div class="table">
+						<div class="table-cell">
+							<blockquote>
+								<div class="title">
+									ДомКомфорт 2
+								</div>
+								<div class="descr">
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+									Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velied 
+								</div>
+							</blockquote>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</section>
+
+	</header>
+
+<!-- <div id="page" class="hfeed site">
 	<?php if ( get_header_image() ) : ?>
 	<div id="site-header">
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
@@ -69,5 +155,5 @@
 				<?php get_search_form(); ?>
 			</div>
 		</div>
-	</header><!-- #masthead -->
-	<div id="main" class="site-main">
+	</header>
+	<div id="main" class="site-main"> -->
