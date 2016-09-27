@@ -29,10 +29,13 @@
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
-	<?php wp_head(); ?>
+	<?php wp_head(); ?>	
 </head>
 
 <body <?php body_class(); ?>>
+<div class="preloader">
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/preloader.gif" alt="">
+</div>
 <div id="page" class="hfeed site">
 	<?php if ( get_header_image() ) : ?>
 	<div id="site-header">
